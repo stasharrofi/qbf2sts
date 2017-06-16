@@ -1,0 +1,2 @@
+Just ```make''' to build the qbf2sts binary. 
+Execute ```cat $file | ./qbf2sts > $file.sts''' to transform a qdimacs instance $file into a sat-to-sat instance $file.sts

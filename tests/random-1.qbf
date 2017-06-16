@@ -1,0 +1,41 @@
+c qbfgen params: /home/bartb/Software/BlocksQBF/blocksqbf -c 15 -b 3 -bs 2 -bs 2 -bs 2 -bc 2 -bc 2 -bc 2
+c time: Mon Mar 14 18:30:04 2016
+c seed = 33330408
+c sort clauses = no
+c dup. resolve limit = 100
+c verbosity = 0
+c num blocks = 3
+c num clauses = 15
+c block_sizes[0] = 2
+c block_sizes[1] = 2
+c block_sizes[2] = 2
+c num vars = 6
+c perblock_nums[0] = 2
+c perblock_nums[1] = 2
+c perblock_nums[2] = 2
+c clause len = 6
+c minblockids[0] = 1
+c maxblockids[0] = 2
+c minblockids[1] = 3
+c maxblockids[1] = 4
+c minblockids[2] = 5
+c maxblockids[2] = 6
+p cnf 6 15
+e 1 2 0
+a 3 4 0
+e 5 6 0
+-1 -2 -3 4 -6 5 0
+2 1 4 3 -5 -6 0
+1 -2 4 3 6 5 0
+1 -2 3 -4 5 -6 0
+2 1 -3 -4 -5 -6 0
+2 -1 3 -4 -5 -6 0
+2 1 3 4 -6 -5 0
+2 -1 -4 -3 6 -5 0
+1 2 3 -4 6 5 0
+-1 2 4 -3 6 -5 0
+1 -2 -4 3 -6 -5 0
+-1 2 4 -3 -5 -6 0
+1 -2 4 -3 5 6 0
+1 -2 4 3 -6 -5 0
+2 1 3 -4 5 6 0
